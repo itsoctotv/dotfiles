@@ -15,6 +15,7 @@ a safe place for my dotfiles :)
 | terminal fancyness: starship|
 | lockscreen: xsecurelock     |
 | Window System: X11          |
+| login/display manager: ly   |
 | distro: arch (btw)          |
 | main fonts: jetbrain font family (with nerdfonts), fontawesome                     |
 
