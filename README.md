@@ -4,7 +4,7 @@ a safe place for my dotfiles :)
 
 |        what do i use        |
 |-----------------------------|
-| WM: bspwm                   |
+| WM: bspwm (tiling manager)  |
 | Notifications: dunst        |
 | applications launcher: rofi |
 | terminal emulator: kitty    |
