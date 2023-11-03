@@ -1,0 +1,23 @@
+{
+    "autosave": 10,
+    "autosu": true,
+    "colorscheme": "simple",
+    "lsp.autocompleteDetails": true,
+    "lsp.formatOnSave": false,
+    "lsp.ignoreMessages": "LS message1 to ignore|LS message 2 to ignore|...",
+    "lsp.ignoreTriggerCharacters": "completion,signature",
+    "lsp.server": "cpp=clangd,c=clangd",
+    "pluginchannels": [
+        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
+    ],
+    "pluginrepos": [
+        "https://raw.githubusercontent.com/terokarvinen/palettero/main/repo.json"
+    ],
+    "reload": "auto",
+    "savecursor": true,
+    "saveundo": true,
+    "scrollbar": true,
+    "softwrap": true,
+    "tabhighlight": true,
+    "tabreverse": false
+}

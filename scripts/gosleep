@@ -1,0 +1,3 @@
+#!/bin/bash
+systemctl suspend
+# a symlink to /usr/local/bin/gosleep

@@ -1,0 +1,5 @@
+#!/bin/bash
+redshift -x
+nitrogen --set-scaled '/home/octo/Bilder/Hintergründe/blue.jpg'
+#its also the "daz" command because rofi and drun 
+#have a US layout "day" --> "daz" QWERTZ and QWERTY shit# thats why another symlink or command with daz is there
