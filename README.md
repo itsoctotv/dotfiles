@@ -19,4 +19,4 @@ a safe place for my dotfiles :)
 | distro: arch (btw)          |
 | main fonts: jetbrain font family (with nerdfonts), fontawesome                     |
 
-_just incase i forget what all these config files are_ 
+_just in case i forget what all these config files are_ 
