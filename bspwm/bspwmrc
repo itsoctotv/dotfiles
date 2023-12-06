@@ -12,8 +12,8 @@ pamixer --set-volume 100 &
 dunst &
 bash /home/octo/scripts/start_openrgb.sh &
 unclutter --timeout 2 --ignore-scrolling --jitter 50 &
-xcape &
-xcape -e 'Super_L=Alt_L|F11' &
+#xcape &
+xcape -e 'Super_L=Alt_L|F12' &
 xsetwacom set 14 MapToOutput HEAD-0 &
 pgrep -x sxhkd > /dev/null || sxhkd &
 ssh-agent -s &
