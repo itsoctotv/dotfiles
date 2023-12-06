@@ -7,8 +7,8 @@ super + f
 super + t
 	kitty
 
-# program launcher -->  (dont do thtat) set with xcape (Super_L = ALT + F12) see bspwmrc for details
-alt + F11
+# program launcher -->   set with xcape (Super_L = ALT + F12) see bspwmrc for details
+alt + F12
 	sh /home/octo/scripts/toggle_rofi.sh
 # make sxhkd reload its configuration files:
 super + Escape
