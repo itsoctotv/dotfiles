@@ -5,8 +5,10 @@
 xsetroot -xcf .icons/oreo_spark_lite_cursors/cursors/left_ptr 16
 lxsession &
 #picom &
-xrandr --dpi 96
-pgrep -x polybar > /dev/null || polybar -r example &
+xrandr --dpi 100x100
+xrandr --output DP-0 --primary
+pgrep -x polybar > /dev/null || polybar -r left &
+pgrep -x polybar > /dev/null || polybar -r right &
 nitrogen --restore &
 pamixer --set-volume 100 &
 dunst &
@@ -14,19 +16,23 @@ bash /home/octo/scripts/start_openrgb.sh &
 unclutter --timeout 2 --ignore-scrolling --jitter 50 &
 #xcape &
 xcape -e 'Super_L=Alt_L|F12' &
-xsetwacom set 14 MapToOutput HEAD-0 &
+xsetwacom set "Wacom Intuos S Pen stylus" MapToOutput HEAD-0 &
 pgrep -x sxhkd > /dev/null || sxhkd &
 ssh-agent -s &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor DP-0 -d I
+bspc monitor HDMI-0 -d II
+bspc monitor HDMI-1 -d III
 
 bspc config border_width         2
-bspc config window_gap           20
+bspc config window_gap           5
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
+
+bspc config focused_border_color "#FFFFFF"
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^2'

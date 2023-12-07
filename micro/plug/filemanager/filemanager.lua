@@ -1384,7 +1384,7 @@ function init()
     config.RegisterCommonOption("filemanager2", "foldersfirst", true)
     -- Lets the user have the filetree auto-open any time Micro is opened
     -- false by default, as it's a rather noticable user-facing change
-    config.RegisterCommonOption("filemanager2", "openonstart", true)
+    config.RegisterCommonOption("filemanager2", "openonstart", false)
     -- Use nerd fonts icons
     config.RegisterCommonOption("filemanager2", "nerdfonts", true)
 
