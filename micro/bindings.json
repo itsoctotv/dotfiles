@@ -6,7 +6,7 @@
     "Alt-r": "command:references",
     "Ctrl-t": "command:hsplit,command:term",
     "CtrlP": "command:palettero",
-	"Ctrl-n": "command:tree",
+    "Alt-n": "command:tree",
     "CtrlSpace": "command:lspcompletion",
     "CtrlUnderscore": "lua:comment.comment"
 }
