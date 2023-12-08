@@ -36,19 +36,19 @@ history = ctrl+grave
 context = ctrl+shift+period
 
 [urgency_low]
-timeout = 4
-background = "#141c21"
-foreground = "#93a1a1"
+timeout = 3
+background = "#282a36"
+foreground = "#ffffff"
 frame_color = "#ffffff"
 
 [urgency_normal]
-timeout = 8
-background = "#141c21"
-foreground = "#93a1a1"
+timeout = 5
+background = "#282a36"
+foreground = "#ffffff"
 frame_color = "#ffffff"
 
 [urgency_critical]
 timeout = 0
-background = "#141c21"
-foreground = "#93a1a1"
-frame_color = "#ffffff"
+background = "#282a36"
+foreground = "#FF0000"
+frame_color = "#FF0000"
