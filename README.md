@@ -17,6 +17,8 @@ a safe place for my dotfiles :)
 | Window System: [X11](https://wiki.archlinux.org/title/Xorg)          |
 | login/display manager: [ly](https://github.com/fairyglade/ly)   |
 | distro: [arch](https://archlinux.org/) (btw)          |
-| main fonts: jetbrain font family (with nerdfonts), fontawesome                     |
+| main fonts: jetbrain font family (with nerdfonts), fontawesome                     |    
+
+[polybar animation config](https://github.com/itsoctotv/polybar-pacman-animation)
 
 _just in case i forget what all these config files are_ 
