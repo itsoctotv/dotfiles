@@ -1,6 +1,8 @@
 #
 # wm independent hotkeys
 #
+super + Escape
+	powermenu
 super + f
 	firefox
 # terminal emulator
@@ -11,7 +13,7 @@ super + t
 alt + F12
 	sh /home/octo/scripts/toggle_rofi.sh
 # make sxhkd reload its configuration files:
-super + Escape
+super + ctrl + Escape
 	pkill -USR1 -x sxhkd
 super + ctrl + l
 	gosleep
