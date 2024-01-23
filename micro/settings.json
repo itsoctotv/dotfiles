@@ -8,16 +8,17 @@
     "lsp.ignoreTriggerCharacters": "completion,signature",
     "lsp.server": "cpp=clangd,c=clangd",
     "pluginchannels": [
-        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
+        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json",
+        "https://raw.githubusercontent.com/taconi/plugin-channel/main/channel.json"
     ],
-    "pluginrepos": [
-        "https://raw.githubusercontent.com/terokarvinen/palettero/main/repo.json"
-    ],
+    "pluginrepos": [],
     "reload": "auto",
     "savecursor": true,
     "saveundo": true,
     "scrollbar": true,
     "softwrap": true,
     "tabhighlight": true,
-    "tabreverse": false
+    "tabreverse": false,
+    "tabstospaces": true,
+    "wordwrap": true
 }
