@@ -1,12 +1,29 @@
 {
     "Alt-/": "lua:comment.comment",
+    "Alt-P": "command:palettero",
     "Alt-d": "command:definition",
     "Alt-f": "command:format",
     "Alt-k": "command:hover",
+    "Alt-n": "command:tree",
+    "Alt-p": "command:palettero",
     "Alt-r": "command:references",
     "Ctrl-t": "command:hsplit,command:term",
-    "CtrlP": "command:palettero",
-    "Alt-n": "command:tree",
     "CtrlSpace": "command:lspcompletion",
-    "CtrlUnderscore": "lua:comment.comment"
+    "CtrlUnderscore": "lua:comment.comment",
+    "MouseWheelUp": "ScrollUp",
+    "Alt-Delete" : "DeleteWordRight",
+    "Alt-Shift-Left": "SelectWordLeft",
+    "Alt-Shift-Right": "SelectWordRight",
+    "Alt-q": "SelectAll,Delete,Quit",
+    "CtrlUp": "CursorUp,CursorUp,CursorUp,CursorUp,CursorUp,CursorUp,CursorUp,CursorUp,CursorUp,CursorUp,CursorUp,CursorUp",
+    "CtrlDown":"CursorDown,CursorDown,CursorDown,CursorDown,CursorDown,CursorDown,CursorDown,CursorDown,CursorDown,CursorDown,CursorDown,CursorDown",
+    "Ctrl-Alt-Left":"CursorLeft,CursorLeft,CursorLeft,CursorLeft,CursorLeft",
+    "Ctrl-Alt-Right":"CursorRight,CursorRight,CursorRight,CursorRight,CursorRight",
+    "Shift-Delete":"WordLeft,SelectWordRight,Delete"
+    
+
+    
+        
+    
+    
 }
