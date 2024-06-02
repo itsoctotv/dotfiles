@@ -24,6 +24,7 @@ xcape -e 'Super_L=Alt_L|F12' &
 xsetwacom set "Wacom Intuos S Pen stylus" MapToOutput HEAD-0 &
 pgrep -x sxhkd > /dev/null || sxhkd &
 ssh-agent -s &
+bash /home/octo/scripts/checkforplayingmedia.sh &
 
 bspc monitor DP-0 -d I
 bspc monitor HDMI-0 -d II
