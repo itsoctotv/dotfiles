@@ -4,11 +4,16 @@
 #xinput set-prop '17' 298 -0.9
 xsetroot -xcf .icons/oreo_spark_lite_cursors/cursors/left_ptr 16
 lxsession &
-#picom &
+picom --config ~/.config/picom/picom.conf &
 xrandr --dpi 100x100
 xrandr --output DP-0 --primary
 pgrep -x polybar > /dev/null || polybar -r left &
 pgrep -x polybar > /dev/null || polybar -r right &
+pgrep -x polybar > /dev/null || polybar -r center &
+pgrep -x polybar > /dev/null || polybar -r starters &
+pgrep -x polybar > /dev/null || polybar -r powerbar &
+pgrep -x polybar > /dev/null || polybar -r stats &
+xset s off & 
 nitrogen --restore &
 pamixer --set-volume 100 &
 dunst &
@@ -22,10 +27,9 @@ ssh-agent -s &
 
 bspc monitor DP-0 -d I
 bspc monitor HDMI-0 -d II
-bspc monitor HDMI-1 -d III
 
-bspc config border_width         2
-bspc config window_gap           5
+bspc config border_width         5
+bspc config window_gap           15
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
@@ -42,3 +46,6 @@ bspc rule -a '*:rofi' state=floating
 bspc rule -a Screenkey manage=off
 bspc rule -a Steam state=floating 
 bspc rule -a qutebrowser state=floating
+bspc rule -a '*:UltiMaker-Cura' state=floating
+#bspc rule -a 'osu! state=floating
+#bspc rule -a '*' state=floating
