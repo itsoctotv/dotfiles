@@ -15,6 +15,7 @@ a safe place for my dotfiles :)
 | terminal fancyness: [starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)|
 | lockscreen: [xsecurelock](https://github.com/google/xsecurelock)     |
 | Window System: [X11](https://wiki.archlinux.org/title/Xorg)          |
+| Compositor: [Picom](https://wiki.archlinux.org/title/Picom)          |
 | login/display manager: [ly](https://github.com/fairyglade/ly)   |
 | distro: [arch](https://archlinux.org/) (btw)          |
 | main fonts: jetbrain font family (with nerdfonts), fontawesome                     |    
